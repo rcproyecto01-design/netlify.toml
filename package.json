@@ -1,0 +1,35 @@
+{
+  "name": "MilerBTC cerveceria-premium",
+  "version": "1.0.0",
+  "description": "Tienda de cervezas con integración Zipnova",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {}
+}
+```
+
+4. **"Commit new file"**
+
+---
+
+### **Paso 4: Crear la función de Zipnova (CON CARPETAS)**
+
+1. **"Add file"** → **"Create new file"**
+2. En el nombre escribe: `netlify/functions/zipnova.js`
+   - ⚠️ **IMPORTANTE:** Al escribir las barras `/` GitHub crea las carpetas automáticamente
+3. Pega todo el código de la función `zipnova.js` que te di arriba
+4. **"Commit new file"**
+
+---
+
+## ✅ VERIFICACIÓN:
+
+Después de crear todo, tu repositorio debería verse así:
+```
+📁 cerveceria
+  📄 index.html
+  📄 netlify.toml
+  📄 package.json
+  📁 netlify
+    📁 functions
+      📄 zipnova.js
